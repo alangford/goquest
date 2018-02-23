@@ -7,10 +7,8 @@ import (
 	"log"
 	"time"
 	"net/http"
-	// "github.com/gorilla/mux"
 	"github.com/shomali11/slacker"
 	"./createIssue"
-	// "./auth"
 )
 
 func heartBeat(w http.ResponseWriter, r *http.Request) {
@@ -62,25 +60,5 @@ func main () {
 	if err != nil {
 		log.Fatal(err)
 	} 
-		
-	
 
-	// ec := make(chan error)
-	// go func() {
-	// 	fmt.Println("Started up this server on port 3000")
-	// 	log.Fatalf("Error occurred:\n%v", <-ec)
-	// }()
-
-
-
-
-
-
-	// router := mux.NewRouter()
-	// router.HandleFunc("/api/create", createIssue.Create()).Methods("POST")
-	// router.HandleFunc("/api/auth", auth.Login()).Methods("POST")
-	// err := http.ListenAndServe(":3000", router)
-	// if err != nil {
-	// 	ec <- err
-	// }
 }
