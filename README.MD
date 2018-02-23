@@ -23,6 +23,8 @@ git clone https://github.com/bolty2142/goquest.git
 
 To run this app in development you will need to create a slack api token
 
+You will also need a Jira account
+
 If you perfer to run this outside of Docker you need to export these variables in your .bash_profile
 
 ``` 
@@ -50,7 +52,7 @@ And then to run it in a contontainer use the commande
 
 ```
 
-docker run -e SLACK_API_TOKEN=changeme -e JIRA_URI=https://yourcompany.atlassian.net/ -e JIRA_USER=changeme -e JIRA_PASS=changeme goslackbot
+docker run -e SLACK_API_TOKEN=changeme -e JIRA_URI=https://yourcompany.atlassian.net/ -e JIRA_USER=changeme -e JIRA_PASS=changeme -d goslackbot
 
 ```
 
