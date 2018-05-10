@@ -72,7 +72,7 @@ I love using AWS ECS to run all of my docker containers
 
 ## Authors
 
-* **Andrew Langford** - *initial work* - [GitHub Link](https://github.com/bolty2142)
+* **Andrew Langford** - *initial work* - [GitHub Link](https://github.com/alangford)
 
-See also the list of [contributors](https://github.com/bolty2142/goquest/graphs/contributors) who participated in this project
+See also the list of [contributors](https://github.com/alangford/goquest/graphs/contributors) who participated in this project
 
